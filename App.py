@@ -120,11 +120,11 @@ if st.button("TÍNH CHỈ SỐ DTI", type="primary",
         # Kết luận theo yêu cầu
         if DTI < 0.70:
             st.error(
-                "❌ KHÔNG ĐƯỢC VAY "
+                " ĐƯỢC VAY "
                 "(DTI < 70%)"
             )
         else:
             st.success(
-                "✅ ĐƯỢC VAY "
+                " KHÔNG ĐƯỢC VAY "
                 "(DTI >= 70%)"
             )
